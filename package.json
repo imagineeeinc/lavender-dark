@@ -6,7 +6,7 @@
   "publisher": "Imagineee",
   "repository": "https://github.com/imagineeeinc/lavender-dark",
   "engines": {
-    "vscode": "^1.14.0"
+    "vscode": "^1.51.0"
   },
   "categories": [
     "Themes"
