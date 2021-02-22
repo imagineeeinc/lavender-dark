@@ -1,9 +1,10 @@
 {
   "name": "Lavender-Dark",
-  "displayName": "Lavender Dark",
+  "displayName": "Lavender-Dark",
   "description": "a dark theme with a lavender tint",
   "version": "1.0.0",
   "publisher": "Imagineee",
+  "repository": "https://github.com/imagineeeinc/lavender-dark",
   "engines": {
     "vscode": "^1.14.0"
   },
@@ -11,17 +12,10 @@
     "Themes"
   ],
   "icon": "icon.png",
-  "contributes": {
-    "themes": [
-      {
-        "label": "Lavender-Dark",
-        "uiTheme": "vs-dark",
-        "path": "themes/dark-color-theme.json"
-      }
-    ]
-  }
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/imagineeeinc/lavender-dark.git"
+  "contributes": ["imagineee"],
+  "themes": {
+      "label": "Lavender-Dark",
+      "uiTheme": "vs-dark",
+      "path": "themes/dark-color-theme.json"
   }
 }
